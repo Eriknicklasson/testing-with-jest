@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Eriknicklasson/testing-with-jest#readme",
   "dependencies": {
     "geckodriver": "^1.22.3",
-    "selenium-webdriver": "^4.0.0-beta.3",
+    "selenium-webdriver": "*",
     "underscore": "^1.13.1"
   },
   "devDependencies": {
