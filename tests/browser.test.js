@@ -32,11 +32,10 @@ describe('Clicking "Pusha till stacken"', () => {
 		await alert.accept();
 	});
 });
-
 test('if elemnt adds to top of stack', async () => {
   let knapp = await driver.findElement(By.id('peek'));
   await knapp.click();
   let stack = await driver.findElement(By.id('top_of_stack')).getText();
-  experct(stack).toEqual("kjsghjöskögnsjokgnskslg");
+  experct(stack).toEqual("jkhgigkhgkh");
 
 });
