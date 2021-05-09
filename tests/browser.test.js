@@ -36,6 +36,6 @@ test('if elemnt adds to top of stack', async () => {
   let knapp = await driver.findElement(By.id('peek'));
   await knapp.click();
   let stack = await driver.findElement(By.id('top_of_stack')).getText();
-  expect(stack).toEqual("Bananer");
+  expect(stack).toEqual("fisk");
 
 });
